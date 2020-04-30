@@ -15,6 +15,8 @@
 		1C955E0E245B3D93008C9722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C955E0C245B3D93008C9722 /* LaunchScreen.storyboard */; };
 		1C955E19245B3D93008C9722 /* Business_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C955E18245B3D93008C9722 /* Business_CardTests.swift */; };
 		1C955E24245B3D93008C9722 /* Business_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C955E23245B3D93008C9722 /* Business_CardUITests.swift */; };
+		1C955E33245B4183008C9722 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C955E32245B4183008C9722 /* Pacifico-Regular.ttf */; };
+		1C955E35245B4D15008C9722 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C955E34245B4D15008C9722 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1C955E1F245B3D93008C9722 /* Business CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C955E23245B3D93008C9722 /* Business_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardUITests.swift; sourceTree = "<group>"; };
 		1C955E25245B3D93008C9722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C955E32245B4183008C9722 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1C955E34245B4D15008C9722 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		1C955E00245B3D90008C9722 /* Business Card */ = {
 			isa = PBXGroup;
 			children = (
+				1C955E31245B4164008C9722 /* Fonts */,
 				1C955E01245B3D90008C9722 /* AppDelegate.swift */,
 				1C955E03245B3D90008C9722 /* SceneDelegate.swift */,
 				1C955E05245B3D90008C9722 /* ContentView.swift */,
+				1C955E34245B4D15008C9722 /* InfoView.swift */,
 				1C955E07245B3D93008C9722 /* Assets.xcassets */,
 				1C955E0C245B3D93008C9722 /* LaunchScreen.storyboard */,
 				1C955E0F245B3D93008C9722 /* Info.plist */,
@@ -134,6 +140,14 @@
 				1C955E25245B3D93008C9722 /* Info.plist */,
 			);
 			path = "Business CardUITests";
+			sourceTree = "<group>";
+		};
+		1C955E31245B4164008C9722 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1C955E32245B4183008C9722 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C955E0E245B3D93008C9722 /* LaunchScreen.storyboard in Resources */,
+				1C955E33245B4183008C9722 /* Pacifico-Regular.ttf in Resources */,
 				1C955E0B245B3D93008C9722 /* Preview Assets.xcassets in Resources */,
 				1C955E08245B3D93008C9722 /* Assets.xcassets in Resources */,
 			);
@@ -267,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C955E35245B4D15008C9722 /* InfoView.swift in Sources */,
 				1C955E02245B3D90008C9722 /* AppDelegate.swift in Sources */,
 				1C955E04245B3D90008C9722 /* SceneDelegate.swift in Sources */,
 				1C955E06245B3D90008C9722 /* ContentView.swift in Sources */,
